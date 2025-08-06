@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hướng dẫn Konoha Easy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Hướng dẫn Konoha Easy</h1>
+    Đây là một cái guide cơ bản để clear Konoha Easy.
+    <br>
+    Sự thật là nếu muốn đạt 110AC thì hãy đọc guide bởi vì các pattern này xuất hiện gần như là 100% trong một run. Còn nếu chỉ muốn săn girl mở skin thì... cứ đọc đi lol
+
+    <br><br>
+
+    <h2>Một chút về Konoha Easy</h2>
+    Chơi với bảng 5x10, mục tiêu là đạt 110 All Clear trong thời gian giới hạn (2m với Standard Style, 4m10s với TGM Style) <br>
+    Mỗi All Clear sẽ tăng thêm thời gian.
+    <table>
+        <tr>
+            <th>Số hàng clear</th>
+            <th>Thời gian tăng thêm khi All Clear</th>
+            <th>Level tăng thêm</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>5s</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>8s</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>11s</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>15s</td>
+            <td>12</td>
+        </tr>
+    </table>
+    Với bảng rộng 5 block, sẽ cần 5 (hoặc các bội của 5) khối để All Clear. Các pattern dưới đây sẽ giúp All Clear trong 5 khối.
+    <hr>
+
+<!-- No Copy -->
+    <details>
+        <summary>Không trùng lặp</summary>
+        Do trình xáo gạch IRM, tỉ lệ có đủ 5 khối ILJOT là rất cao. Nên các pattern dưới sẽ gánh lượng lớn All Clear trong một run.<br>
+    
+        <div class="figContainer">
+            <figure>
+                <img src="Pattern Images/Full Bag/Early J.png" alt="">
+                <figcaption>Early J</figcaption>
+            </figure>
+
+            <figure>
+                <img src="Pattern Images/Full Bag/Early TO.png" alt="">
+                <figcaption>Early TO</figcaption>
+            </figure>
+
+            <figure>
+                <img src="Pattern Images/Full Bag/Early IO.png" alt="">
+                <figcaption>Early IO</figcaption>
+            </figure>
+
+            <figure>
+                <img src="Pattern Images/Full Bag/Early IOT.png" alt="">
+                <figcaption>Late LJ</figcaption><br>
+            </figure>
+        </div>
+    </details>
+
+<!-- 3x4 Box  -->
+    <details>
+        <summary>3x4 Box</summary>
+
+        Đi theo pattern này khi có nhiều LJ.
+
+        <h3 id="build3x4">Build</h3>
+        <strike>Thanh Hóa</strike> 6-3 stacking go brrrrrrrr <br>
+
+        <div class="figContainer">
+            <figure>
+                <img src="Pattern Images/3x4 Box/Build LJO.png" alt="">
+                <figcaption>LJO</figcaption>
+            </figure>
+
+            <figure>
+                <img src="Pattern Images/3x4 Box/Build LLO1.png" alt="">
+                <img src="Pattern Images/3x4 Box/Build LLO2.png" alt="">
+                <figcaption>LLO</figcaption>
+            </figure>
+
+            <figure>
+                <img src="Pattern Images/3x4 Box/Build TTL1.png" alt="">
+                <img src="Pattern Images/3x4 Box/Build TTL2.png" alt="">
+                <figcaption>TTL</figcaption>
+            </figure>
+        </div>
+
+        <h3>Solve</h3>
+
+        <ul>
+            <li>Có thể solve bằng <a href="#build2x4">các 2x4 box ở dưới</a>.</li>
+
+            <li>Có thể dựng đứng L/J/T để giải khi khối thứ 5 là L/J.
+                <div class="figContainer">
+                    <figure>
+                        <img src="Pattern Images/3x4 Box/Solve Stand LJT.png" alt="">
+                        <figcaption>JL / TL / LL</figcaption>
+                    </figure>
+                </div>
+            </li>
+        </ul>
+        
+    </details>
+
+<!-- 2x4 Box -->
+    <details>
+        <summary>2x4 Box</summary>
+
+        <h3 id="build2x4">Build</h3>
+
+        Chỉ có thể build bằng 2 khối giống nhau.
+        <div class="figContainer">
+            <figure>
+                <img src="Pattern Images/2x4 Box/Build II.png" alt="">
+                <figcaption>II</figcaption>
+            </figure>
+
+            <figure>
+                <img src="Pattern Images/2x4 Box/Build OO.png" alt="">
+                <figcaption>OO</figcaption>
+            </figure>
+
+            <figure>
+                <img src="Pattern Images/2x4 Box/Build LL.png" alt="">
+                <figcaption>LL</figcaption>
+            </figure>
+
+            <figure>
+                <img src="Pattern Images/2x4 Box/Build JJ.png" alt="">
+                <figcaption>JJ</figcaption><br>
+            </figure>
+        </div>
+
+        <h3>Solve</h3>
+
+        <ul>
+            <li>
+                Có thể solve bằng <a href="#build3x4">các 3x4 box ở trên</a>.
+                <div class="figContainer">
+                    <figure>
+                        <img src="Pattern Images/2x4 Box/Solve OLJ.png" alt="">
+                        <figcaption>OLJ</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Pattern Images/2x4 Box/Solve OJL.png" alt="">
+                        <figcaption>OJL</figcaption>
+                    </figure>
+                </div>
+            </li>
+
+            <li>
+                TLJ có thể giải bằng cách quay ngược L và J (chơi TGM Style thì khỏi lol)
+                <div class="figContainer">
+                    <figure>
+                        <img src="Pattern Images/2x4 Box/Solve TLJ.png" alt="">
+                        <figcaption>TLJ</figcaption>
+                    </figure>
+                </div>
+            </li>
+
+            <li>    
+                LLT có thể giải nếu T không đến trước LL
+                <div class="figContainer">
+                    <figure>
+                        <img src="Pattern Images/2x4 Box/Solve LTL.png" alt="">
+                        <figcaption>LTL</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Pattern Images/2x4 Box/Solve LLT.png" alt="">
+                        <figcaption>LLT</figcaption>
+                    </figure>
+                </div>
+            </li>
+            
+            <li>
+                LTT có thể giải theo mọi thứ tự
+
+                <div class="figContainer">
+                    <figure>
+                        <img src="Pattern Images/2x4 Box/Solve LTT.png" alt="">
+                        <figcaption>LTT</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Pattern Images/2x4 Box/Solve TLT.png" alt="">
+                        <figcaption>TLT</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Pattern Images/2x4 Box/Solve TTL.png" alt="">
+                        <figcaption>TTL</figcaption>
+                    </figure>
+                </div>
+            </li>
+        </ul>
+    </details>
+
+<!-- Double T  -->
+    <details>
+        <summary>Double T</summary>
+
+        <h3>Build</h3>
+        Có thể đặt thêm L / J để thành 3x4 box.
+        <div class="figContainer">
+            <figure>
+                <img src="Pattern Images/TT/Build.png" alt="">
+                <figcaption>Build</figcaption>
+            </figure>
+        </div>
+
+        <h3>Solve</h3>
+        <div class="figContainer">
+            <figure>
+                <img src="Pattern Images/TT/Solve ILT.png" alt="">
+                <figcaption>ILT</figcaption>
+            </figure>
+            <figure>
+                <img src="Pattern Images/TT/Solve ILO.png" alt="">
+                <figcaption>ILO</figcaption>
+            </figure>
+            <figure>
+                <img src="Pattern Images/TT/Solve IJO.png" alt="">
+                <figcaption>IJO</figcaption>
+            </figure>
+        </div>
+    </details>
+
+<!-- IOT / JJT -->
+    <details>
+        <summary>IOT / JJT</summary>
+
+        <h3>Build</h3>
+        <div class="figContainer">
+            <figure>
+                <img src="Pattern Images/PCO/Build IOT.png" alt="">
+                <figcaption>IOT</figcaption>
+            </figure>
+            <figure>
+                <img src="Pattern Images/PCO/Build JJT.png" alt="">
+                <figcaption>JJT</figcaption>
+            </figure>
+            <figure>
+                <img src="Pattern Images/PCO/Residue.png" alt="">
+                <figcaption>Residue</figcaption>
+            </figure>
+        </div>
+
+        <h3>Solve</h3>
+        <div class="figContainer">
+            <figure>
+                <img src="Pattern Images/PCO/Solve T.png" alt="">
+                <figcaption>LT</figcaption>
+            </figure>
+            <figure>
+                <img src="Pattern Images/PCO/Solve O.png" alt="">
+                <figcaption>LO</figcaption>
+            </figure>
+            <figure>
+                <img src="Pattern Images/PCO/Solve I.png" alt="">
+                <figcaption>LI</figcaption>
+            </figure>
+        </div>
+    </details>
+
+<!-- EX -->
+    <details>
+        <summary>Extra Pattern</summary>
+        WIP <br><br>
+
+        Những cái này... học cũng được, không học cũng không sao vì nó khá hiếm.
+
+        <h2>TL</h2>
+        <h3>Build</h3>
+
+        <div class="figContainer">
+            <figure>
+                <img src="Pattern Images/Misc/TL/Build.png" alt="">
+            </figure>
+            <figure>
+                <img src="Pattern Images/Misc/TL/Residue.png" alt="">
+                <figcaption>Residue</figcaption>
+            </figure>
+        </div>
+
+        <h3>Solve</h3>
+        <div class="figContainer">
+            <figure>
+                <img src="Pattern Images/Misc/TL/Solve OJJ.png" alt="">
+                <figcaption>OJJ</figcaption>
+            </figure>
+            <figure>
+                <img src="Pattern Images/Misc/TL/Solve OLL.png" alt="">
+                <figcaption>OLL</figcaption>
+            </figure>
+            <figure>
+                <img src="Pattern Images/Misc/TL/Solve OLJ.png" alt="">
+                <figcaption>OLJ</figcaption>
+            </figure>
+        </div>
+    </details>
+
+<!-- Recover -->
+    <details>
+        <summary>Nếu không giải được</summary>
+        Đặt khối ở trên stack thêm 4 ô nữa, sau đó downstack
+
+        <div class="figContainer">
+            <figure>
+                <img src="Pattern Images/Recover/1.png" alt="">
+                <figcaption>Kiểu 1</figcaption>
+            </figure>
+            <figure>
+                <img src="Pattern Images/Recover/2.png" alt="">
+                <figcaption>Kiểu 2</figcaption>
+            </figure>
+        </div>
+
+    </details>
+
+    <hr>
+
+    <h2>Chiến thuật</h2>
+    Nhắm khoảng 70AC khi chạm Lv1000 <br>
+    <br>
+    Còn Assist: Tập trung vào speed, copy Assist (tự giải được thì tốt vì sẽ nhanh hơn copy) <br>
+    Không còn Assist: Tập trung vào All Clear, suy nghĩ để giải (nhưng mà suy nghĩ tầm 15-20s thôi, không ra nữa thì phá) <br>
+    Lv1000+: Tập trung vào speed, lúc này suy nghĩ sẽ chỉ làm mất thời gian
+
+    <hr>
+
+    <h2>Credits</h2>
+    <ul>
+        <li>TGM4 development team: <strike>Tốn 20 năm để</strike> tạo ra TGM4</li>
+        <li>dottiz: <a href="https://dottizmemo.fc2.net/blog-entry-125.html">Guide gốc (tiếng Nhật)</a></li>
+    </ul>
+</body>
+</html>
