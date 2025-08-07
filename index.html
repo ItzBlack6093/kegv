@@ -17,11 +17,13 @@
     <meta property="twitter:title" content="Hướng dẫn Konoha Easy" />
     <meta property="twitter:description" content="Hướng dẫn Konoha Easy của dottiz - Việt hóa bởi ItzBlack" />
     <meta property="twitter:image" content="https://itzblack6093.github.io/kegv/Pattern%20Images/Misc/Attract.png" />
+    <link rel="shortcut icon" href="KitaHappy.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <h1>Hướng dẫn Konoha Easy</h1>
+
     Đây là một cái guide cơ bản để clear Konoha Easy.
     <br>
     Sự thật là nếu muốn đạt 110AC thì hãy đọc guide bởi vì các pattern này xuất hiện gần như là 100% trong một run. Còn nếu chỉ muốn săn girl mở skin thì... cứ đọc đi lol
@@ -62,8 +64,8 @@
     <hr>
 
 <!-- No Copy -->
-    <details>
-        <summary>Không trùng lặp</summary>
+    <button type="button" class="collapsible">Không trùng lặp</button>
+    <div class="content">
         Do trình xáo gạch IRM, tỉ lệ có đủ 5 khối ILJOT là rất cao. Nên các pattern dưới sẽ gánh lượng lớn All Clear trong một run.<br>
     
         <div class="figContainer">
@@ -87,12 +89,13 @@
                 <figcaption>ILJ</figcaption><br>
             </figure>
         </div>
-    </details>
+
+    </div>
+
 
 <!-- 3x4 Box  -->
-    <details>
-        <summary>3x4 Box</summary>
-
+    <button type="button" class="collapsible">3x4 Box</button>
+    <div class="content">
         Đi theo pattern này khi có nhiều LJ.
 
         <h3 id="build3x4">Build</h3>
@@ -131,13 +134,12 @@
                 </div>
             </li>
         </ul>
-        
-    </details>
+    </div>
+
 
 <!-- 2x4 Box -->
-    <details>
-        <summary>2x4 Box</summary>
-
+    <button type="button" class="collapsible">2x4 Box</button>
+    <div class="content">
         Đi theo pattern này khi có 2 khối giống nhau
 
         <h3 id="build2x4">Build</h3>
@@ -224,12 +226,11 @@
                 </div>
             </li>
         </ul>
-    </details>
+    </div>
 
-<!-- Double T  -->
-    <details>
-        <summary>Double T</summary>
-
+    <!-- Double T  -->
+    <button type="button" class="collapsible">Double T</button>
+    <div class="content">
         <h3>Build</h3>
         Có thể đặt thêm L / J để thành 3x4 box.
         <div class="figContainer">
@@ -254,12 +255,11 @@
                 <figcaption>IJO</figcaption>
             </figure>
         </div>
-    </details>
-
+    </div>
+        
 <!-- IOT / JJT -->
-    <details>
-        <summary>IOT / JJT</summary>
-
+    <button type="button" class="collapsible">IOT / JJT</button>
+    <div class="content">
         <h3>Build</h3>
         <div class="figContainer">
             <figure>
@@ -291,13 +291,11 @@
                 <figcaption>LI</figcaption>
             </figure>
         </div>
-    </details>
+    </div>
 
 <!-- EX -->
-    <details>
-        <summary>Extra Pattern</summary>
-        WIP <br><br>
-
+    <button type="button" class="collapsible">Extra Pattern (WIP)</button>
+    <div class="content">
         Những cái này... học cũng được, không học cũng không sao vì nó khá hiếm.
 
         <h2>TL</h2>
@@ -328,12 +326,12 @@
                 <figcaption>OLJ</figcaption>
             </figure>
         </div>
-    </details>
+    </div>
 
 <!-- Recover -->
-    <details>
-        <summary>Nếu không giải được</summary>
-        Đặt khối ở trên stack thêm 4 ô nữa, sau đó downstack
+    <button type="button" class="collapsible">Nếu không giải được...</button>
+    <div class="content">
+       Đặt khối ở trên stack thêm 4 ô nữa, sau đó downstack
 
         <div class="figContainer">
             <figure>
@@ -344,9 +342,8 @@
                 <img src="Pattern Images/Recover/2.png" alt="">
                 <figcaption>Kiểu 2</figcaption>
             </figure>
-        </div>
-
-    </details>
+        </div> 
+    </div>
 
     <hr>
 
@@ -364,5 +361,8 @@
         <li>TGM4 development team: <strike>Tốn 20 năm để</strike> tạo ra TGM4</li>
         <li>dottiz: <a href="https://dottizmemo.fc2.net/blog-entry-125.html">Guide gốc (tiếng Nhật)</a></li>
     </ul>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
