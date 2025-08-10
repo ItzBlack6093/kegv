@@ -2,19 +2,11 @@
 
 * {
     font-family: sans-serif;
-    color: black;
-}
-
-body.dark html {
-    background-color: #222
-}
-
-body.dark * {
-    color: white
+    color: white;
 }
 
 html {
-    background-color: #ddd;
+    background-color: #222;
     scroll-behavior: smooth;
 }
 
@@ -51,8 +43,8 @@ figure {
 }
 
 .collapsible {
-    background-color: #eee;
-    color: #444;
+    background-color: #444;
+    color: white;
     cursor: pointer;
     padding: 18px;
     margin-top: 18px;
@@ -65,12 +57,12 @@ figure {
 
 .active,
 .collapsible:hover {
-    background-color: #ccc;
+    background-color: #666;
 }
 
 .content {
     padding: 0 18px;
-    background-color: white;
+    background-color: #555;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
